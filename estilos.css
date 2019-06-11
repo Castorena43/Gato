@@ -1,0 +1,19 @@
+.contenedor{
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    height: 100vh;
+}
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.cuadro{
+    background-color: #4f5ef5;
+    font-size: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
