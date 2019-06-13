@@ -1,6 +1,8 @@
 $(document).ready(function(){
     var i=0;
-    $(".cuadro").click(function(){
+    $(".cuadro").click(cambiar);
+    function cambiar()
+    {
         if(i==0){
             $(this).html("O");
             i=1;
@@ -9,6 +11,5 @@ $(document).ready(function(){
             $(this).html("X");
             i--;
         }
-        
-    });
-});
+    }
+})
